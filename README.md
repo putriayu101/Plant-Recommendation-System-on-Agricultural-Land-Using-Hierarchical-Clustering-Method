@@ -15,7 +15,16 @@ The system collects soil nutrient data (N, P, K), environmental parameters (pH, 
 | Data Sync | Real-time via Wi-Fi -> Firebase |
 
 ## 🏗️ System Architecture
+### Blog Diagram 
+System design, including a block diagram of the system shown below.
+<img width="470" height="296" alt="image" src="https://github.com/user-attachments/assets/3eae90e2-867d-4ada-8c64-6ef455b4ec4c" />
+
 ### System Workflow / Flowchart
+The system will follow the workflow below.
+<img width="630" height="400" alt="flowchart" src="https://github.com/user-attachments/assets/f7f14a7a-2a74-4117-a992-359f197ae903" />
 
+### AHC Design Model 
+The design of the model to be created follows the workflow shown below. 
+<img width="456" height="121" alt="model Ahc" src="https://github.com/user-attachments/assets/a3789b31-bd7e-42b8-89ae-1a51d0e3d0d1" />
 
-### AHC Model Design
+### 
