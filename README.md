@@ -321,8 +321,7 @@ The system performed consistently with an average computation time of **2.110 se
 | 📘 Guide Book | Complete hardware and software setup guide |
 | 📊 Dataset | Soil nutrient dataset (ICFA) used for model training | 
 | 💻 Code | Full source code — preprocessing, clustering, recommendation | 
-| 📝 Paper | Research paper / Final Year Project report |
-| 🎥 Video Demo | System demonstration video |
+
 
 </div>
 
