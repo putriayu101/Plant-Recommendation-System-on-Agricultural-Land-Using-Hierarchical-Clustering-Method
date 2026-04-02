@@ -190,4 +190,15 @@ The design of the model to be created follows the workflow shown below.
 
      The results show that the plant recommendation system performs quite well in recommending plants, with an average computation time of 2.110 seconds. After real-time measurements using the 7-in-1 sensor, measurements were taken using the GPS module. Once the sensor measurement data, plant recommendations, and GPS data were obtained, they were displayed on the LCD. The 7-in-1 sensor measurement data and GPS measurement data were then transmitted to the database via Wi-Fi.
 
+## Documentation
 
+|Document|Description|
+|:---:|:---|
+|Guide book|sss|
+|Dataset|fff|
+|Code|ggg|
+|Paper|fff|
+|Video demo|fss|
+
+## Author
+## License 
