@@ -1,4 +1,4 @@
-# 🌱 Plant Recommendation System on Agricultural Land Using Hierarchical Clustering Method - Final Year Project
+# 🌱 Plant Recommendation System on Agricultural Land Using Hierarchical Clustering Method
 
 
 <div align = "center">
