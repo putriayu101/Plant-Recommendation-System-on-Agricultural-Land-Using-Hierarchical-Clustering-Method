@@ -1,8 +1,8 @@
 # 🌱 Plant Recommendation System on Agricultural Land Using Hierarchical Clustering Method
 
-<div align="center">
 
-<img width="268" height="307" alt="Plant Recommendation System" src="https://github.com/user-attachments/assets/eaca4333-bc71-44b4-b363-1eb76d1b1151" />
+<div align = "center">
+<img width="268" height="307" alt="Plant Recommendation System" src="https://github.com/user-attachments/assets/eaca4333-bc71-44b4-b363-1eb76d1b1151" /> </div>
 
 <br><br>
 
@@ -263,7 +263,7 @@ GPS coordinates compared against actual positions measured via Google Maps (5 of
 | -7.399825 | 112.673079 | -7.399798 | 112.673050 | 4.38 |
 | -7.391175 | 112.644457 | -7.391162 | 112.644473 | 2.28 |
 | -7.348064 | 112.689821 | -7.348062 | 112.689826 | 0.59 |
-| **Average (10 measurements)** | | | | **4.18 m** |
+|  | | |**Average (10 measurements)**| **4.18 m** |
 
 </div>
 
@@ -283,7 +283,7 @@ The model was tested with varying dataset sizes (12 to 100 data points).
 | 50 | 49 | 1 | 98.0 | 2.0 |
 | 65 | 62 | 3 | 95.3 | 4.7 |
 | 100 | 95 | 5 | 95.0 | 5.0 |
-| **Average** | | | **95.0** | **4.7** |
+|  | |**Average**| **95.0** | **4.7** |
 
 </div>
 
@@ -304,7 +304,7 @@ Real-time sensor readings with corresponding crop recommendations and computatio
 | 46 | 154 | 147 | 32.8 | 48.0 | 9.0 | 408 | Lentil | 2.113 |
 | 6 | 45 | 38 | 28.3 | 12.7 | 6.4 | 184 | Caper Pea | 2.111 |
 | 208 | 527 | 523 | 30.2 | 53.0 | 6.8 | 1,182 | Grape | 2.110 |
-| **Average** | | | | | | | | **2.110 s** |
+|  | | | | | | |**Average**| **2.110 s** |
 
 </div>
 
@@ -316,8 +316,8 @@ The system performed consistently with an average computation time of **2.110 se
 
 <div align="center">
 
-| Document | Description | Link |
-| :---: | :--- | :---: |
+| Document | Description |
+| :---: | :--- |
 | 📘 Guide Book | Complete hardware and software setup guide |
 | 📊 Dataset | Soil nutrient dataset (ICFA) used for model training | 
 | 💻 Code | Full source code — preprocessing, clustering, recommendation | 
@@ -329,16 +329,15 @@ The system performed consistently with an average computation time of **2.110 se
 ---
 
 ## 👩‍💻 Author
-<div align="center">
+
 
 **Putri Ayu Licha Wardani**
 <br>
-S.Tr.T — Teknik Telekomunikasi
-<br>
 Politeknik Elektronika Negeri Surabaya (PENS)
-
 <br>
-</div>
+🔗LinkedIn: [linkedin.com/in/putriayulichawardani](https://www.linkedin.com/in/putriayulichawardani/)
+<br>
+📧Email: putriayulw10@gmail.com
 
 ---
 
@@ -349,6 +348,3 @@ This project is associated with academic research at **Politeknik Elektronika Ne
 
 ---
 
-<div align="center">
-  <i>Built with ❤️ for smarter agriculture through data-driven decisions</i>
-</div>
