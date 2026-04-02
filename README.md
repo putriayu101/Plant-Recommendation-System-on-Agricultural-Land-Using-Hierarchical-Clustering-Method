@@ -92,7 +92,7 @@ The design of the model to be created follows the workflow shown below.
   8. **Crop Recommendations** - Once the AHC model has demonstrated good performance, it can be applied to predict crop recommendations based on the provided values.
 
 ## System Analytics
-  1. **Selection of Linkage**
+  1. **Selection of Linkage** <br>
 | Linkage | Coefficient Correlation Cophenetic (CCC) |
 | :---: | :---: |
 | Single | 0,888 |
@@ -103,11 +103,15 @@ The design of the model to be created follows the workflow shown below.
 Dari hasil perbandingan penggunaan linkage, linkage *Average* memberikan nilai paling tinggi, artinya, dendogram akan di visualisasikan menggunakan *Average* linkage.
 
   2. Cluster Selection
-    <img width="471" height="341" alt="image" src="https://github.com/user-attachments/assets/63924f5f-2a4b-4671-9a07-5b0b9e3f6677" /> <br>
-Dari gambar, penurunan *Within-Cluster Sum of Squares* (WCSS) mulai melambat secara signifikan saat berada di cluster 5. Oleh karena itu, cluster 5 di nilai efektif untuk pengelompokkan pada model. 
+     Menggunakan *Elbow method* sebagai matriks evaluasi dalam penentuan jumlah cluster yang optimal. <br>
+    <img width="371" height="241" alt="image" src="https://github.com/user-attachments/assets/63924f5f-2a4b-4671-9a07-5b0b9e3f6677" /> <br>
+    Dari gambar, penurunan *Within-Cluster Sum of Squares* (WCSS) mulai melambat secara signifikan saat berada di cluster 5. Oleh karena itu, cluster 5 di nilai efektif untuk pengelompokkan pada model. 
 
-  3. Selection of Distance Matrices
-
+  4. Selection of Distance Matrices
+     Pemilihan matriks jarak untuk memperoleh hasil distribusi data yang optimal. Digunakan cluster 5 yang kita pilih sebelumnya untuk melihat hasil distribusi data dari setiap matriks jarak. 
+     | Cluster | Manhattan | Eucledian | Cosine |
+     | :---: | :---:|:---:|:---:|
+     |1|499|1738|499|
 
 ## 🛠️ Tech Stack
   - Machine Learning  : Python, Scikit-learn (AgglomerativeClustering)
