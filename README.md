@@ -27,10 +27,19 @@ The system will follow the workflow below.
 The design of the model to be created follows the workflow shown below. 
 <div align = "center"> <img width="456" height="121" alt="model Ahc" src="https://github.com/user-attachments/assets/a3789b31-bd7e-42b8-89ae-1a51d0e3d0d1" /> </div>
 
+## 🔨 Hardware Component
 ### Schematic 7-in-1 Sensor with Raspberry Pi
 <div align = "center"> <img width="488" height="300" alt="image" src="https://github.com/user-attachments/assets/6f7ac39c-0c23-4eb8-b3c3-cdf7be11f2ae" /> </div> <br>
 
-| Raspberry Pi | Arduino | 7in1 Sensor | 
+| Raspberry Pi Zero 2 W | Arduino Nano | RS-485 | Sensor Soil 7in1 |
 | :---: | :---: | :---: | :---: |
-| USB Raspberry Pi | 5V | - | Brown Cabel |
-| ---------------- | GND | - | Blcak cabel |
+| **USB Raspberry Pi** | 5V | - | Kabel Coklat |
+| **USB Raspberry Pi** | GND | - | Kabel Hitam |
+| **USB Raspberry Pi** | - | A+ | Kabel Kuning |
+| **USB Raspberry Pi** | - | B- | Kabel Biru |
+| **USB Raspberry Pi** | 5V | VCC | - |
+| **USB Raspberry Pi** | GND | GND | - |
+| **USB Raspberry Pi** | D3 | DE | - |
+| **USB Raspberry Pi** | D4 | RE | - |
+| **USB Raspberry Pi** | D5 | R0 | - |
+| **USB Raspberry Pi** | D2 | DI | - |
