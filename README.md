@@ -31,7 +31,6 @@ The design of the model to be created follows the workflow shown below.
 ### Schematic 7-in-1 Sensor with Raspberry Pi
 <div align = "center"> <img width="488" height="300" alt="image" src="https://github.com/user-attachments/assets/6f7ac39c-0c23-4eb8-b3c3-cdf7be11f2ae" /> </div> <br>
 
-<div align = "center" >
 | Raspberry Pi | Arduino Nano | RS-485 | 7in1 Sensor |
 | :---: | :---: | :---: | :---: |
 | **USB Raspberry Pi** | 5V | - | Kabel Coklat |
@@ -43,7 +42,7 @@ The design of the model to be created follows the workflow shown below.
 | **USB Raspberry Pi** | D3 | DE | - |
 | **USB Raspberry Pi** | D4 | RE | - |
 | **USB Raspberry Pi** | D5 | R0 | - |
-| **USB Raspberry Pi** | D2 | DI | - | </div>
+| **USB Raspberry Pi** | D2 | DI | - | 
 
 ### Schematic GPS Sensor with Raspberry Pi
 <div align = "center">
@@ -96,6 +95,18 @@ The design of the model to be created follows the workflow shown below.
   1. **Selection of Linkage**
 | Linkage | Coefficient Correlation Cophenetic (CCC) |
 | :---: | :---: |
+| Single | 0,888 |
+| Complete | 0,895 |
+| Average | 0,945 |
+| Ward | 0,880 |
+
+Dari hasil perbandingan penggunaan linkage, linkage *Average* memberikan nilai paling tinggi, artinya, dendogram akan di visualisasikan menggunakan *Average* linkage.
+
+  2. Cluster Selection
+    <img width="471" height="341" alt="image" src="https://github.com/user-attachments/assets/63924f5f-2a4b-4671-9a07-5b0b9e3f6677" /> <br>
+Dari gambar, penurunan *Within-Cluster Sum of Squares* (WCSS) mulai melambat secara signifikan saat berada di cluster 5. Oleh karena itu, cluster 5 di nilai efektif untuk pengelompokkan pada model. 
+
+  3. Selection of Distance Matrices
 
 
 ## 🛠️ Tech Stack
