@@ -58,7 +58,7 @@ The design of the model to be created follows the workflow shown below.
 ### Schematic TFT LCD Sensor with Raspberry Pi
 <div align = "center"><img width="488" height="195" alt="image" src="https://github.com/user-attachments/assets/a82deba0-b456-40a1-827f-945e885f1fca" /> </div> <br>
 
-| Raspberry Pi | USB to TTL |
+| TFT LCD | Raspberry Pi |
 | :---: | :---: | 
 | VCC | 3.3V | 
 | GND | GND |
@@ -69,3 +69,39 @@ The design of the model to be created follows the workflow shown below.
 | SCK | GPIO11 | 
 | LED | 5V | 
 | SDO(MISO) | GPIO9 | 
+
+
+## 🤖 Machine Learning - Agglomerative Hierarchical Clustering (AHC)
+### Features
+  - Nitrogen (N)
+  - Phosporus (P)
+  - Potassium (K)
+  - pH Level
+  - Soil Moisture
+  - Temperature
+  - Conductivity
+
+### How It Works
+ 1. **Data Collection** - The dataset comes from the ICFA (Indian Chamber of Food and Agriculture), which is the leading organization for addressing business agendas and policies and serves as a global platform for agribusiness technology and services. 
+  2. **Data Preprocessing** - The process of converting data into the desired format, cleaning the data, reducing data dimensions, and more. 
+  3. **Selection of Linkage** - The hierarchical clustering method used to determine how to calculate the distance between clusters. The Cophentic Correlation Coefficient (CCC) is used, which measures the correlation between the distances displayed in the dendrogram and the original distances in the data
+  4. **Selection of Distance Matrices** - To determine the most appropriate distance matrix, a comparison is made between several methods, such as Manhattan, Euclidean, and cosine similarity.
+  5. **Dendrogram** - A graphical representation in the form of a tree diagram used to illustrate/visualize the clustering hierarchy, where points or groups of points that are more similar to one another are combined earlier in the clustering process. 
+  6. **Cluster Selection** - The Elbow method and cluster distribution results are used to determine the approximate number of clusters to be used.
+  7. **Model Evaluation** - Used to measure performance in providing crop recommendations by calculating accuracy and comparing it with the model’s predictions against real-world data.
+  8. **Crop Recommendations** - Once the AHC model has demonstrated good performance, it can be applied to predict crop recommendations based on the provided values.
+
+## System Analytics
+  1. **Selection of Linkage**
+| Linkage | Coefficient Correlation Cophenetic (CCC) |
+| :---: | :---: |
+
+
+## 🛠️ Tech Stack
+  - Machine Learning  : Python, Scikit-learn (AgglomerativeClustering)
+  - Data Processing   : Pandas, NumPy
+  - Visualization     : Matplotlib, Seaborn, Dendrogram
+  - Cloud Database    : Firebase Realtime Database
+  - IoT Hardware      : 7-in-1 Soil Sensor, Neo-6M GPS, Raspberry Pi, TFT LCD
+  - Connectivity      : Wi-Fi (Raspberri Pi)
+
