@@ -102,17 +102,28 @@ The design of the model to be created follows the workflow shown below.
 
 Dari hasil perbandingan penggunaan linkage, linkage *Average* memberikan nilai paling tinggi, artinya, dendogram akan di visualisasikan menggunakan *Average* linkage.
 
-  2. Cluster Selection
+  2. **Cluster Selection** <br>
      Menggunakan *Elbow method* sebagai matriks evaluasi dalam penentuan jumlah cluster yang optimal. <br>
     <img width="371" height="241" alt="image" src="https://github.com/user-attachments/assets/63924f5f-2a4b-4671-9a07-5b0b9e3f6677" /> <br>
     Dari gambar, penurunan *Within-Cluster Sum of Squares* (WCSS) mulai melambat secara signifikan saat berada di cluster 5. Oleh karena itu, cluster 5 di nilai efektif untuk pengelompokkan pada model. 
 
-  4. Selection of Distance Matrices
+  4. **Selection of Distance Matrices** <br>
      Pemilihan matriks jarak untuk memperoleh hasil distribusi data yang optimal. Digunakan cluster 5 yang kita pilih sebelumnya untuk melihat hasil distribusi data dari setiap matriks jarak. <br>
+     
      | Cluster | Manhattan | Eucledian | Cosine |
      | :---: | :---:|:---:|:---:|
      |1|499|1738|499|
+     |2|200|186|499|
+     |3|214|219|200|
+     |4|316|43|735|
+     |5|801|14|267|
 
+Dari hasil dapat disimpulkan bahwa matriks *Cosine* memiliki penyebaran data yang cukup seimbang dibandingkan matriks Manhattan dan Eucledian.
+
+  5. **Dendogram**
+     <img width="440" height="224" alt="image" src="https://github.com/user-attachments/assets/c08fa96b-2b28-443f-b284-b86f3e4fc2d4" /> <br>
+     Dendrogram pada gambar dihasilkan dari penggunaan average linkage dan cosine matriks. 
+     
 ## 🛠️ Tech Stack
   - Machine Learning  : Python, Scikit-learn (AgglomerativeClustering)
   - Data Processing   : Pandas, NumPy
